@@ -1,0 +1,147 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    background-image: url(image/bg-gtm-2020.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 0.4fr 0.6fr;
+    grid-template-rows: 1fr;
+    grid-gap: 2rem;
+}
+
+/* ASIDE-LEFT */
+.asideleft {
+    background-color: rgb(19, 18, 18);
+    text-align: center;
+    padding: 90px;
+    min-height: 82vh;
+}
+
+.img> img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    margin-bottom: 80px;
+}
+
+.username>label,
+.pass>label {
+    display: flex;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+.username>input,
+.pass>input {
+    align-items: center;
+    border: none;
+    border-radius: 2px;
+    width: 76%;
+    padding: 10px;
+    
+}
+
+hr {
+    margin-right: 10%;
+    margin-left: 10%;   
+}
+
+.btn button{
+    background-color:rgb(75, 143, 221);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    width: 80%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.links>a{
+    display: block;
+    margin-top: 30px;
+    padding: 10px;
+    color: rgb(75, 143, 221);
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button {
+    background-color:gray;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    width: 80%;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+footer>p {
+    color: white;
+    font-size: 12px;
+    margin-top: 10em;
+}
+
+/* ASIDE-RIGHT */
+.asideright {
+    margin-top: 10rem;
+    padding: 2rem;
+    color: white;
+}
+
+
+
+span{
+    color:white;
+}
+
+span>svg {
+    width: 5%;
+    margin-left: -35rem;
+    margin-top: 45px;
+}
+
+h1 {
+    font-size: 50px;
+    color: white;
+    margin-left: 40px;
+}
+
+.gradient {
+    margin-top: -100px;
+    
+}
+
+.but button {
+    background: linear-gradient( rgb(235, 108, 4), rgb(245, 28, 64), rgb(235, 108, 4));
+    width: 30%;
+}
+
+.build>img{
+    float: right;
+    margin-top: 300px;
+    width: 100px;
+}
+
+@media only screen and (max-width: 769px) {
+    .container{
+        grid-template-columns: 2fr;
+    }
+    
+    .asideright{
+        display: none;
+    }
+}
