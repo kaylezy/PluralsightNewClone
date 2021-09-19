@@ -144,7 +144,7 @@ h1 {
         display: block;
         margin-right: auto;
         margin-left: auto;
-        width: 80%;
+        width: 90%;
         margin-top: -40px;
         margin-bottom: 50px;
     }
@@ -157,7 +157,7 @@ h1 {
     .spanleft>svg{
         display:block;
         width: 10%;
-        margin-left: 1rem;    
+        margin-left: 8rem;    
     }
 
     footer>p {
@@ -179,7 +179,7 @@ h1 {
     }
 
     .btn button{
-        width: 83%;
+        width: 84%;
     }
     
     .asideright{
